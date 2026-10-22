@@ -1,0 +1,253 @@
+name: Tuck
+attributes:
+  LastUpgradeCheck: "2620"
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "26.5"
+  # German is the language the copy is written in, not a translation of an English original
+  # (docs/design/design-system.md): the literals in the Swift sources ARE the source strings, so the
+  # source language of every String Catalog has to match this or Xcode treats them as untranslated.
+  # Produces developmentRegion = de and CFBundleDevelopmentRegion = de in every built bundle.
+  #
+  # XcodeGen 2.46 has no knownRegions key at all: it derives them from this value plus the languages
+  # it finds on disk — .lproj directories and the localizations inside .xcstrings catalogs. So
+  # translating the catalogs into `en` was on its own enough to register `en` as a project
+  # localization (generated knownRegions = Base, de, en); nothing had to be declared here for it.
+  developmentLanguage: de
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "26.5"
+    # Emits the .stringsdata that Xcode's string catalogs are populated from. Was NO since the
+    # initial scaffold (an unconsidered default) — with it off the catalogs stay empty
+    # no matter what the sources contain.
+    SWIFT_EMIT_LOC_STRINGS: YES
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+targets:
+  Tuck:
+    type: application
+    platform: iOS
+    deploymentTarget: "26.5"
+    sources:
+      - path: Tuck
+      - path: Shared/TuckIdentifiers.swift
+      - path: Shared/MorningBlockWindow.swift
+      - path: Shared/MorningBlockDuration.swift
+      - path: Shared/MorningProgressStore.swift
+      # App target only: the app process is the only one that ever starts from scratch and the only
+      # one allowed to convert the container. An extension that migrated would do it mid-window,
+      # from a process the user cannot see.
+      - path: Shared/SchemaMigrations.swift
+      # App target only, like the two stores it writes: no extension counts a morning, and both
+      # paths that do — the stop intent and the foreground entry — run in the app process.
+      - path: Shared/CompletedMorningLedger.swift
+      # App and monitor extension both: the app registers windows and audits for the callback that
+      # never came, the extension reports the two events in between.
+      - path: Shared/BlockDiagnostics.swift
+      - path: Shared/MascotMilestone.swift
+      - path: Shared/MilestoneStore.swift
+      # App target only, like MorningProgressStore and MilestoneStore next to it: the monitor
+      # extension is forbidden from counting, so nothing outside the app ever needs this.
+      - path: Shared/ProtectedTimeStore.swift
+      - path: Shared/WakeAlarmDate.swift
+      # App and monitor extension both, like BlockDiagnostics above: the app hands the selection to
+      # AlarmKit, the extension is the only place a day nobody chose can be told apart from one
+      # that was chosen — DeviceActivitySchedule cannot express weekdays at all.
+      - path: Shared/WakeAlarmWeekdays.swift
+      - path: Shared/BedtimeStore.swift
+      - path: Shared/QuotaAnchorDay.swift
+      - path: Shared/UnlockQuotaStore.swift
+      - path: Shared/SubscriptionTier.swift
+      - path: Shared/SubscriptionAccess.swift
+      - path: Shared/FamilyActivitySelectionStore.swift
+      - path: Shared/ShieldApplication.swift
+      # Taking a shield down, apart from putting one up: a target that must never block can compile
+      # this one without FamilyControls in reach.
+      - path: Shared/ShieldRelease.swift
+      - path: Shared/BlockWindowEntitlement.swift
+      - path: Shared/TokenRefresh.swift
+      - path: Shared/OverrideReason.swift
+      - path: Shared/OverrideContext.swift
+      - path: Shared/ShieldCopy.swift
+      # The one catalog both the app and the shield extension resolve their shared copy from. Two
+      # per-target Localizable entries for the same state would be exactly the drift the design
+      # system forbids, and a resource in the app bundle is unreachable from the .appex — so one
+      # file, both bundles.
+      - path: Shared/SharedCopy.xcstrings
+      # Compiled into the app as well as into the shield targets purely so TuckTests can
+      # reach it: both extensions are system extensions the Simulator never launches.
+      - path: Shared/ShieldActionRouting.swift
+      - path: Shared/ShieldOverrideRequest.swift
+      - path: Shared/ScreenTimeNotice.swift
+      # All four bundles read UserDefaults, so all four carry the manifest — one file, listed in
+      # four targets, the same shape SharedCopy.xcstrings uses. XcodeGen sorts .xcprivacy into the
+      # Resources phase on its own (verified in the generated pbxproj: four PBXBuildFile entries on
+      # one fileRef, all "in Resources", none in a Sources phase), so no explicit buildPhase is set.
+      # It has to land at the bundle root, which on iOS is what the Resources phase produces.
+      - path: Shared/PrivacyInfo.xcprivacy
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.tuck
+        # Set in the project file, not in the Xcode GUI: a team picked in the signing editor lands
+        # in the pbxproj, which is generated from this file and overwritten on every xcodegen run.
+        DEVELOPMENT_TEAM: YOUR_TEAM_ID
+        IPHONEOS_DEPLOYMENT_TARGET: "26.5"
+        CODE_SIGN_ENTITLEMENTS: Tuck/Tuck.entitlements
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_FILE: Tuck/Info.plist
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        # Export-compliance declaration: the app declares that it uses no non-exempt encryption. Only the app
+        # target: the setting is documented as taking effect when GENERATE_INFOPLIST_FILE is on,
+        # which of the five targets is true for this one and the test bundle — the three extensions
+        # ship hand-written Info.plists, where it would be a no-op — and App Store Connect reads the
+        # app bundle. Basis is the zero-network/zero-crypto finding in docs/privacy-manifest-notes.md.
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        # iPhone only: the app has no iPad layout or screenshots, and Review tests whatever
+        # is declared — "1,2" would put an unreviewed iPad experience in front of Apple.
+        TARGETED_DEVICE_FAMILY: "1"
+    dependencies:
+      # Explicit link, unlike the `frameworks:` list below: Swift autolinking alone leaves
+      # AppIntents.framework out of the link phase, and appintentsmetadataprocessor then skips
+      # metadata extraction ("No AppIntents.framework dependency found") — StopWakeAlarmIntent
+      # would never be registered.
+      - sdk: AppIntents.framework
+      - sdk: AlarmKit.framework
+      - target: TuckMonitor
+        embed: true
+        codeSign: true
+      - target: TuckShield
+        embed: true
+        codeSign: true
+      - target: TuckShieldAction
+        embed: true
+        codeSign: true
+    frameworks:
+      - FamilyControls
+      - DeviceActivity
+      - ManagedSettings
+      - StoreKit
+
+  TuckMonitor:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "26.5"
+    sources:
+      - path: TuckMonitor
+      - path: Shared/TuckIdentifiers.swift
+      - path: Shared/BlockDiagnostics.swift
+      - path: Shared/WakeAlarmWeekdays.swift
+      - path: Shared/FamilyActivitySelectionStore.swift
+      - path: Shared/ShieldApplication.swift
+      - path: Shared/ShieldRelease.swift
+      - path: Shared/TokenRefresh.swift
+      - path: Shared/ScreenTimeNotice.swift
+      # The evening window is gated on Plus, and the gate has to hold in the process that
+      # writes the shield — not only in the app, which a lapsed install may never open again.
+      - path: Shared/BlockWindowEntitlement.swift
+      - path: Shared/SubscriptionTier.swift
+      - path: Shared/SubscriptionAccess.swift
+      - path: Shared/PrivacyInfo.xcprivacy
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.tuck.monitor
+        DEVELOPMENT_TEAM: YOUR_TEAM_ID
+        IPHONEOS_DEPLOYMENT_TARGET: "26.5"
+        INFOPLIST_FILE: TuckMonitor/Info.plist
+        CODE_SIGN_ENTITLEMENTS: TuckMonitor/TuckMonitor.entitlements
+    frameworks:
+      - DeviceActivity
+      - FamilyControls
+      - ManagedSettings
+
+  TuckShield:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "26.5"
+    sources:
+      - path: TuckShield
+      - path: Shared/TuckIdentifiers.swift
+      # The block screen changes its own copy once the quota is empty, so it has to resolve
+      # which window it is in and read that window's counter out of the App Group.
+      - path: Shared/OverrideReason.swift
+      - path: Shared/OverrideContext.swift
+      - path: Shared/ShieldCopy.swift
+      - path: Shared/SharedCopy.xcstrings
+      - path: Shared/ShieldActionRouting.swift
+      - path: Shared/BedtimeStore.swift
+      - path: Shared/MorningBlockWindow.swift
+      - path: Shared/QuotaAnchorDay.swift
+      - path: Shared/UnlockQuotaStore.swift
+      - path: Shared/SubscriptionTier.swift
+      - path: Shared/SubscriptionAccess.swift
+      - path: Tuck/Color+Palette.swift
+      # The shield's own drawing reads the rig's measurements instead of carrying a third copy
+      # of them. Foundation-only, like Tuck/Motion.swift, so it costs this extension no framework.
+      - path: Tuck/MascotGeometry.swift
+      - path: Shared/PrivacyInfo.xcprivacy
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.tuck.shield
+        DEVELOPMENT_TEAM: YOUR_TEAM_ID
+        IPHONEOS_DEPLOYMENT_TARGET: "26.5"
+        INFOPLIST_FILE: TuckShield/Info.plist
+        CODE_SIGN_ENTITLEMENTS: TuckShield/TuckShield.entitlements
+    frameworks:
+      - ManagedSettings
+      - ManagedSettingsUI
+
+  TuckShieldAction:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "26.5"
+    sources:
+      - path: TuckShieldAction
+      - path: Shared/TuckIdentifiers.swift
+      - path: Shared/OverrideReason.swift
+      - path: Shared/SharedCopy.xcstrings
+      - path: Shared/ShieldActionRouting.swift
+      - path: Shared/ShieldOverrideRequest.swift
+      - path: Shared/PrivacyInfo.xcprivacy
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.tuck.shieldaction
+        DEVELOPMENT_TEAM: YOUR_TEAM_ID
+        IPHONEOS_DEPLOYMENT_TARGET: "26.5"
+        INFOPLIST_FILE: TuckShieldAction/Info.plist
+        CODE_SIGN_ENTITLEMENTS: TuckShieldAction/TuckShieldAction.entitlements
+    frameworks:
+      - ManagedSettings
+
+  TuckTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "26.5"
+    sources:
+      - path: TuckTests
+    settings:
+      base:
+        IPHONEOS_DEPLOYMENT_TARGET: "26.5"
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: Tuck
+
+schemes:
+  Tuck:
+    build:
+      targets:
+        Tuck: all
+        TuckMonitor: [build]
+        TuckShield: [build]
+        TuckShieldAction: [build]
+    test:
+      targets:
+        - TuckTests
+    run:
+      config: Debug
+      # Local StoreKit Testing: purchases resolve in-process against Tuck.storekit, so the
+      # paywall is testable in the Simulator without an App Store Connect account or network.
+      storeKitConfiguration: Tuck.storekit

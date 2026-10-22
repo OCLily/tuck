@@ -1,0 +1,136 @@
+{
+  "sourceLanguage": "de",
+  "strings": {
+    "Anderes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something else"
+          }
+        }
+      }
+    },
+    "Arbeit": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Work"
+          }
+        }
+      }
+    },
+    "Die Sperre bleibt bestehen. Morgen ist wieder ein neuer Morgen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The block stays. Tomorrow is a new morning."
+          }
+        }
+      }
+    },
+    "Die Sperre bleibt bestehen. Morgen ist wieder ein neuer Tag.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The block stays. Tomorrow is a new day."
+          }
+        }
+      }
+    },
+    "Diese Zeit gehört dem Schlaf, nicht dem Feed. Der Griff zum Handy ist normal, gerade abends.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This time belongs to sleep, not to the feed. Reaching for the phone is normal, especially in the evening."
+          }
+        }
+      }
+    },
+    "Diese Zeit gehört dir, nicht dem Feed. Der Griff zum Handy ist normal, gerade morgens.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This time belongs to you, not to the feed. Reaching for the phone is normal, especially in the morning."
+          }
+        }
+      }
+    },
+    "Für heute aufgebraucht": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Used up for today"
+          }
+        }
+      }
+    },
+    "Gute Nacht": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good night"
+          }
+        }
+      }
+    },
+    "Guten Morgen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good morning"
+          }
+        }
+      }
+    },
+    "Ich brauche kurz Zugriff": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I'll need access briefly"
+          }
+        }
+      }
+    },
+    "Ich lass es": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I'll leave it"
+          }
+        }
+      }
+    },
+    "Notfall": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emergency"
+          }
+        }
+      }
+    },
+    "Schließen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

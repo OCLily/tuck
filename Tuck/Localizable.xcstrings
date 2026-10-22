@@ -1,0 +1,2724 @@
+{
+  "sourceLanguage": "de",
+  "strings": {
+    " oder ": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " or "
+          }
+        }
+      }
+    },
+    " und ": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " and "
+          }
+        }
+      }
+    },
+    "%@ %@ · noch keine Apps ausgewählt": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ %2$@ · noch keine Apps ausgewählt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ %2$@ · no apps selected yet"
+          }
+        }
+      }
+    },
+    "%@ %@ ist eingetragen, noch nicht scharf gestellt.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ %2$@ ist eingetragen, noch nicht scharf gestellt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ %2$@ is saved, not armed yet."
+          }
+        }
+      }
+    },
+    "%@: heute nicht — du hast %@ gewählt.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@: heute nicht — du hast %2$@ gewählt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@: not today — you chose %2$@."
+          }
+        }
+      }
+    },
+    "%@ / Jahr": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ / year"
+          }
+        }
+      }
+    },
+    "%@ / Monat": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ / month"
+          }
+        }
+      }
+    },
+    "%@ · Teil von Plus": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Part of Plus"
+          }
+        }
+      }
+    },
+    "%@ aktiv": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ active"
+          }
+        }
+      }
+    },
+    "%@ bis %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ bis %2$@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ until %2$@"
+          }
+        }
+      }
+    },
+    "%@ ist ausgelaufen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ has expired"
+          }
+        }
+      }
+    },
+    "%@ ließ sich gerade nicht %@. Das sagt iOS dazu: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ ließ sich gerade nicht %2$@. Das sagt iOS dazu: %3$@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ could not be %2$@ just now. This is what iOS says: %3$@"
+          }
+        }
+      }
+    },
+    "%@ um deine Bettzeit: %@.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ um deine Bettzeit: %2$@."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ around your bedtime: %2$@."
+          }
+        }
+      }
+    },
+    "%@: %@.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@: %2$@."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@: %2$@."
+          }
+        }
+      }
+    },
+    "%lld Freischaltung pro Tag": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld unlock per day"
+          }
+        }
+      }
+    },
+    "%lld Minuten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld minutes"
+          }
+        }
+      }
+    },
+    "%lld Morgen, Stufe %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld Morgen, Stufe %2$@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld mornings, stage %2$@"
+          }
+        }
+      }
+    },
+    "%lld ausgewählt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld selected"
+          }
+        }
+      }
+    },
+    "%lld von %lld Morgen, Stufe %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld von %2$lld Morgen, Stufe %3$@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld of %2$lld mornings, stage %3$@"
+          }
+        }
+      }
+    },
+    "%lld von %lld heute übrig": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld von %2$lld heute übrig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld of %2$lld left today"
+          }
+        }
+      }
+    },
+    "%llds": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%llds"
+          }
+        }
+      }
+    },
+    "30 Minuten vor und 30 nach deiner Bettzeit bleiben dieselben Apps ruhig wie morgens. Mit Plus stellst du die Zeit hier ein.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For 30 minutes before and 30 after your bedtime the same apps stay quiet as in the morning. With Plus you set the time here."
+          }
+        }
+      }
+    },
+    "Abo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subscription"
+          }
+        }
+      }
+    },
+    "Abo verwalten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage subscription"
+          }
+        }
+      }
+    },
+    "An den anderen Tagen bleibt auch das Sperrfenster aus.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On the other days the block window stays off too."
+          }
+        }
+      }
+    },
+    "Alles noch da.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Everything is still here."
+          }
+        }
+      }
+    },
+    "Alles, was wichtig ist, wartet.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Everything that matters waits."
+          }
+        }
+      }
+    },
+    "Als Grund gewählt: Anderes. Beide Wege stehen weiter offen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reason chosen: Something else. Both ways stay open."
+          }
+        }
+      }
+    },
+    "Als Grund gewählt: Arbeit. Beide Wege stehen weiter offen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reason chosen: Work. Both ways stay open."
+          }
+        }
+      }
+    },
+    "Als Grund gewählt: Notfall. Beide Wege stehen weiter offen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reason chosen: Emergency. Both ways stay open."
+          }
+        }
+      }
+    },
+    "Apple zählt auch Messenger wie WhatsApp und Nachrichten zu „Soziale Netze“. Wenn du morgens erreichbar bleiben willst, wähl lieber einzelne Apps aus.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple also counts messengers like WhatsApp and Messages as “Social”. If you want to stay reachable in the morning, pick individual apps instead."
+          }
+        }
+      }
+    },
+    "Apps": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apps"
+          }
+        }
+      }
+    },
+    "Apps, die warten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apps that wait"
+          }
+        }
+      }
+    },
+    "Auch möglich, wenn du magst: %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Also possible, if you like: %@."
+          }
+        }
+      }
+    },
+    "Ausatmen …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Breathe out …"
+          }
+        }
+      }
+    },
+    "Beim ersten Mal fragt iOS einmal nach Erlaubnis für Wecker.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The first time, iOS asks once for alarm permission."
+          }
+        }
+      }
+    },
+    "Bereit": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ready"
+          }
+        }
+      }
+    },
+    "Bettzeit": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bedtime"
+          }
+        }
+      }
+    },
+    "Bettzeit entfernen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove bedtime"
+          }
+        }
+      }
+    },
+    "Bettzeit entfernt. Für den Abend ist nichts mehr eingetragen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bedtime removed. Nothing is saved for the evening any more."
+          }
+        }
+      }
+    },
+    "Bettzeit setzen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set bedtime"
+          }
+        }
+      }
+    },
+    "Bettzeit wird gesetzt …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Setting bedtime …"
+          }
+        }
+      }
+    },
+    "Bildschirmzeit-Zugriff": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Screen Time access"
+          }
+        }
+      }
+    },
+    "Bildschirmzeit-Zugriff prüfen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Screen Time access"
+          }
+        }
+      }
+    },
+    "Blätter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leaves"
+          }
+        }
+      }
+    },
+    "Da bist du.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "There you are."
+          }
+        }
+      }
+    },
+    "Damit wählst du selbst, welche Apps morgens kurz warten müssen — Tuck bekommt nie eine feste Liste vorgegeben, das entscheidest nur du im nächsten Schritt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That way you choose yourself which apps wait a little in the morning — Tuck is never given a fixed list, you decide that in the next step."
+          }
+        }
+      }
+    },
+    "Danach gilt wieder %lld Freischaltung pro Tag. Wecker, Morgenfenster und Sperre bleiben, wie sie sind.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "After that it is %lld unlock per day again. The alarm, the morning window and the block stay as they are."
+          }
+        }
+      }
+    },
+    "Das %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        }
+      }
+    },
+    "Das Bettzeit-Fenster": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bedtime window"
+          }
+        }
+      }
+    },
+    "Das Bettzeit-Fenster am Abend": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The bedtime window in the evening"
+          }
+        }
+      }
+    },
+    "Das Bettzeit-Fenster gehört zu Plus": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The bedtime window is part of Plus"
+          }
+        }
+      }
+    },
+    "Das Handy ist heute Morgen mit dabei.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The phone is here this morning."
+          }
+        }
+      }
+    },
+    "Das Licht braucht auch einen Moment.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The light takes a moment too."
+          }
+        }
+      }
+    },
+    "Das wird schon Routine.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This is becoming routine."
+          }
+        }
+      }
+    },
+    "Datenschutzerklärung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy Policy"
+          }
+        }
+      }
+    },
+    "Dein Fortschritt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your progress"
+          }
+        }
+      }
+    },
+    "Dein Tuck": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your Tuck"
+          }
+        }
+      }
+    },
+    "Dein Tuck wächst mit jedem Morgen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your Tuck grows with every morning"
+          }
+        }
+      }
+    },
+    "Dein Tuck, Stufe %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your Tuck, stage %@"
+          }
+        }
+      }
+    },
+    "Dein Stand": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Where you stand"
+          }
+        }
+      }
+    },
+    "Dein Weg": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your path"
+          }
+        }
+      }
+    },
+    "Deine Testphase läuft": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your trial is running"
+          }
+        }
+      }
+    },
+    "Deine Zeiten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your times"
+          }
+        }
+      }
+    },
+    "Der App Store hat den Kauf nicht bestätigt. Der Zugang bleibt deshalb, wie er war.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The App Store did not confirm the purchase. Your access therefore stays as it was."
+          }
+        }
+      }
+    },
+    "Der Kauf braucht noch die Zustimmung deiner Familienorganisation. Bis dahin ändert sich nichts.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The purchase still needs approval from your family organizer. Nothing changes until then."
+          }
+        }
+      }
+    },
+    "Der Morgen hat Form.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The morning has shape."
+          }
+        }
+      }
+    },
+    "Der Morgen läuft von selbst.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The morning runs itself."
+          }
+        }
+      }
+    },
+    "Der Rest kommt von allein.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The rest comes on its own."
+          }
+        }
+      }
+    },
+    "Der Tag fängt langsam an. Du auch.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The day starts slowly. You too."
+          }
+        }
+      }
+    },
+    "Der Wecker": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alarm"
+          }
+        }
+      }
+    },
+    "Der Zugriff": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Access"
+          }
+        }
+      }
+    },
+    "Der Zugriff fehlt noch. Du kannst ihn in den Systemeinstellungen geben — bis dahin bleiben die Apps offen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Access is still missing. You can grant it in the Settings app — until then the apps stay open."
+          }
+        }
+      }
+    },
+    "Der klassische Griff um 6:30 — einmal aufmachen, zwanzig Minuten weg.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The classic reach at 6:30 — open it once, twenty minutes gone."
+          }
+        }
+      }
+    },
+    "Die Auswahl erscheint hier, sobald der Zugriff erlaubt ist.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The picker appears here once access is allowed."
+          }
+        }
+      }
+    },
+    "Optional — ohne sie bleibt der Abend offen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optional — without it the evening stays open."
+          }
+        }
+      }
+    },
+    "Die Erlaubnis für den Wecker fehlt noch. Du kannst sie in den Systemeinstellungen geben — ohne sie weckt Tuck dich nicht.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The alarm permission is still missing. You can grant it in the Settings app — without it Tuck does not wake you."
+          }
+        }
+      }
+    },
+    "Zählt ab der Weckzeit, gilt ab morgen früh.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Counts from your wake time, applies from tomorrow."
+          }
+        }
+      }
+    },
+    "Die Sperre selbst ist mit und ohne Abo gleich streng. Plus nimmt das Tageslimit weg, nie die Verzögerung und nie die Begründung.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The block itself is equally strict with and without a subscription. Plus takes away the daily limit, never the delay and never the reason."
+          }
+        }
+      }
+    },
+    "Die Testphase geht zu Ende": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The trial is coming to an end"
+          }
+        }
+      }
+    },
+    "Die Testphase hat alles, was Plus hat. Danach gilt %lld Freischaltung pro Tag.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The trial has everything Plus has. After that, %lld unlock per day applies."
+          }
+        }
+      }
+    },
+    "Die Testphase ist vorbei": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The trial is over"
+          }
+        }
+      }
+    },
+    "Die ersten Minuten gehören dir.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The first minutes are yours."
+          }
+        }
+      }
+    },
+    "Diese Weckzeit lässt sich im Kalender nicht auflösen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This wake time cannot be resolved in the calendar."
+          }
+        }
+      }
+    },
+    "Gilt morgens und abends.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Applies morning and evening."
+          }
+        }
+      }
+    },
+    "Dieselbe Sperre, dieselbe Wartezeit, dieselbe Begründung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The same block, the same wait, the same reason"
+          }
+        }
+      }
+    },
+    "Draußen wird es gerade hell.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Outside it is getting light."
+          }
+        }
+      }
+    },
+    "Dreivierteljahr": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Three quarter year"
+          }
+        }
+      }
+    },
+    "Dreißigster Morgen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thirtieth morning."
+          }
+        }
+      }
+    },
+    "Du bist schon da.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You are already here."
+          }
+        }
+      }
+    },
+    "Du bist wieder da.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You are back again."
+          }
+        }
+      }
+    },
+    "Du hast %lld Freischaltung pro Tag.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You have %lld unlock per day."
+          }
+        }
+      }
+    },
+    "Du hast Plus.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You have Plus."
+          }
+        }
+      }
+    },
+    "Du hast das im Griff.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You have this in hand."
+          }
+        }
+      }
+    },
+    "Du hast jetzt Soft-Lavendel.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You have Soft Lavender now."
+          }
+        }
+      }
+    },
+    "Du kommst rein.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You are settling in."
+          }
+        }
+      }
+    },
+    "Du musst hier nichts erreichen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "There is nothing to achieve here."
+          }
+        }
+      }
+    },
+    "Echt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Real"
+          }
+        }
+      }
+    },
+    "Ein Blatt für unseren Weg.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A leaf for our way."
+          }
+        }
+      }
+    },
+    "Ein Morgen ohne Bildschirm ist trotzdem ein Morgen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A morning without a screen is still a morning."
+          }
+        }
+      }
+    },
+    "Ein Vorschlag, keine Vorauswahl — such die Zeilen in der Liste selbst aus:": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A suggestion, not a preselection — find the rows in the list yourself:"
+          }
+        }
+      }
+    },
+    "Einatmen …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Breathe in …"
+          }
+        }
+      }
+    },
+    "Eine Runde ist nie eine Runde.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One round is never one round."
+          }
+        }
+      }
+    },
+    "Einfach so, jeden Morgen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Just so, every morning."
+          }
+        }
+      }
+    },
+    "Eingespielt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settled in"
+          }
+        }
+      }
+    },
+    "Einstellungen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    },
+    "Erst wach werden, dann die Welt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "First wake up, then the world."
+          }
+        }
+      }
+    },
+    "Erster Morgen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "First morning."
+          }
+        }
+      }
+    },
+    "Es gilt wieder %lld Freischaltung pro Tag. Nichts geht verloren, dein Weg zählt weiter.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It is %lld unlock per day again. Nothing is lost, your path keeps counting."
+          }
+        }
+      }
+    },
+    "Es gilt wieder %lld Freischaltung pro Tag. Wecker, Morgenfenster und Sperre bleiben, wie sie sind.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It is %lld unlock per day again. The alarm, the morning window and the block stay as they are."
+          }
+        }
+      }
+    },
+    "Es ist still, gut so.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It is quiet, good."
+          }
+        }
+      }
+    },
+    "Farbe": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color"
+          }
+        }
+      }
+    },
+    "Kommen mit den Morgen dazu und bleiben.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "They arrive with the mornings and stay."
+          }
+        }
+      }
+    },
+    "Fertig": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        }
+      }
+    },
+    "Fortschritt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progress"
+          }
+        }
+      }
+    },
+    "Frei · %lld pro Tag": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free · %lld per day"
+          }
+        }
+      }
+    },
+    "Freischalten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlock"
+          }
+        }
+      }
+    },
+    "Freischalten braucht trotzdem einen Moment — das ist Absicht, nicht Bremse.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlocking still takes a moment — that is intent, not a brake."
+          }
+        }
+      }
+    },
+    "Freischaltung eingetragen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlock recorded"
+          }
+        }
+      }
+    },
+    "Freischaltungen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlocks"
+          }
+        }
+      }
+    },
+    "Freischaltungen ohne Tageslimit": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlocks without a daily limit"
+          }
+        }
+      }
+    },
+    "Freischaltungen ohne Tageslimit. Jederzeit kündbar.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlocks without a daily limit. Cancel any time."
+          }
+        }
+      }
+    },
+    "Fühlt sich vertraut an.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Feels familiar now."
+          }
+        }
+      }
+    },
+    "Ganz normal geworden.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quite ordinary now."
+          }
+        }
+      }
+    },
+    "Gleich fragen wir nach Bildschirmzeit-Zugriff": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next we ask for Screen Time access"
+          }
+        }
+      }
+    },
+    "Guten Morgen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good morning"
+          }
+        }
+      }
+    },
+    "Guten Morgen sagen wir dir ab jetzt jeden Morgen hier.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "From now on we say good morning here, every morning."
+          }
+        }
+      }
+    },
+    "Hat gerade nicht geklappt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Did not work just now"
+          }
+        }
+      }
+    },
+    "Hier liegen TikTok und YouTube: kein natürliches Ende, deshalb hört man nicht auf.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TikTok and YouTube live here: no natural end, so it does not stop."
+          }
+        }
+      }
+    },
+    "Ich bin auch müde.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I am tired too."
+          }
+        }
+      }
+    },
+    "Ich brauche kurz Zugriff": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I'll need access briefly"
+          }
+        }
+      }
+    },
+    "Ich war hier.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I was here."
+          }
+        }
+      }
+    },
+    "Informationen & Lesen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Information & Reading"
+          }
+        }
+      }
+    },
+    "jeden Morgen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "every morning"
+          }
+        }
+      }
+    },
+    "Jeder Morgen zählt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every morning counts."
+          }
+        }
+      }
+    },
+    "Auch Morgen mit Freischaltung zählen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mornings with an unlock count too."
+          }
+        }
+      }
+    },
+    "Jederzeit kündbar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel any time"
+          }
+        }
+      }
+    },
+    "Kein Abo aktiv": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No subscription active"
+          }
+        }
+      }
+    },
+    "Kein Grund zur Eile.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No reason to hurry."
+          }
+        }
+      }
+    },
+    "Kein großes Ding mehr.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No big deal anymore."
+          }
+        }
+      }
+    },
+    "Konnte nicht bestätigt werden": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not be confirmed"
+          }
+        }
+      }
+    },
+    "Kurzvideos lassen morgens am schwersten wieder los — meist TikTok, Instagram Reels, YouTube Shorts.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Short videos are the hardest to put down in the morning — mostly TikTok, Instagram Reels, YouTube Shorts."
+          }
+        }
+      }
+    },
+    "Käufe werden wiederhergestellt …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restoring purchases …"
+          }
+        }
+      }
+    },
+    "Käufe wiederherstellen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore purchases"
+          }
+        }
+      }
+    },
+    "Langsam ist auch ein Tempo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slow is also a pace."
+          }
+        }
+      }
+    },
+    "Los geht's": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Let's go"
+          }
+        }
+      }
+    },
+    "Länge": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Length"
+          }
+        }
+      }
+    },
+    "Morgenfenster": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morning window"
+          }
+        }
+      }
+    },
+    "Der Morgen und der Abend sollen dir gehören, nicht dem Feed. Tuck trägt dafür zwei Sperrfenster ein — nach dem Wecker mindestens 30 Minuten, statt direkt Social Media.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The morning and the evening are meant to be yours, not the feed's. Tuck saves two block windows for that — at least 30 minutes after the alarm, instead of straight to social media."
+          }
+        }
+      }
+    },
+    "Nachrichten als Erstes am Morgen setzen die Stimmung für den ganzen Tag.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "News first thing in the morning sets the mood for the whole day."
+          }
+        }
+      }
+    },
+    "Nichts davon läuft dir weg.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "None of it is running away."
+          }
+        }
+      }
+    },
+    "Nichts hat sich geändert.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing has changed."
+          }
+        }
+      }
+    },
+    "Nichts mehr zu beweisen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing left to prove."
+          }
+        }
+      }
+    },
+    "Noch %lld für heute übrig.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld left for today."
+          }
+        }
+      }
+    },
+    "Noch ein Blatt für uns.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Another leaf for us."
+          }
+        }
+      }
+    },
+    "Noch ganz früh hier.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Still very early here."
+          }
+        }
+      }
+    },
+    "Nutzungsbedingungen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terms of Use"
+          }
+        }
+      }
+    },
+    "Ohne Abo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Without a subscription"
+          }
+        }
+      }
+    },
+    "Ohne laufendes Fenster kostet das keine Freischaltung. Noch %lld für heute übrig.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Without a running window this costs no unlock. %lld left for today."
+          }
+        }
+      }
+    },
+    "Onboarding erneut zeigen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show onboarding again"
+          }
+        }
+      }
+    },
+    "Optional. 30 Minuten vor und 30 nach deiner Bettzeit bleiben die gleichen Apps ruhig wie morgens.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optional. For 30 minutes before and 30 after your bedtime the same apps stay quiet as in the morning."
+          }
+        }
+      }
+    },
+    "Original": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original"
+          }
+        }
+      }
+    },
+    "Plus abonnieren": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subscribe to Plus"
+          }
+        }
+      }
+    },
+    "Plus ansehen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "See Plus"
+          }
+        }
+      }
+    },
+    "Plus wird abonniert …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subscribing to Plus …"
+          }
+        }
+      }
+    },
+    "Preis wird geladen …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading price …"
+          }
+        }
+      }
+    },
+    "Plus: kein Tageslimit, dazu das Bettzeit-Fenster.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plus: no daily unlock limit, plus the bedtime window."
+          }
+        }
+      }
+    },
+    "Ruhig und eingespielt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calm and practised."
+          }
+        }
+      }
+    },
+    "Tuck": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuck"
+          }
+        }
+      }
+    },
+    "Tuck Plus": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuck Plus"
+          }
+        }
+      }
+    },
+    "Schließen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        }
+      }
+    },
+    "Schön, dass du da bist": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good to have you here"
+          }
+        }
+      }
+    },
+    "Schön, dass du da bist.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good to have you here."
+          }
+        }
+      }
+    },
+    "Schön.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lovely."
+          }
+        }
+      }
+    },
+    "Siebter Morgen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seventh morning."
+          }
+        }
+      }
+    },
+    "Soft-Lavendel": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Soft Lavender"
+          }
+        }
+      }
+    },
+    "Solange das offen ist, ändert sich nichts an deinem Zugang.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "While this is open, nothing about your access changes."
+          }
+        }
+      }
+    },
+    "Soziale Netze": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Social"
+          }
+        }
+      }
+    },
+    "Sperrfenster": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Block window"
+          }
+        }
+      }
+    },
+    "Spiele": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Games"
+          }
+        }
+      }
+    },
+    "Später erlauben, weiter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow later, continue"
+          }
+        }
+      }
+    },
+    "Start": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start"
+          }
+        }
+      }
+    },
+    "Status: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: %@"
+          }
+        }
+      }
+    },
+    "Staubblau": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dusty Blue"
+          }
+        }
+      }
+    },
+    "Staubblau steht dir jetzt offen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dusty Blue is yours now."
+          }
+        }
+      }
+    },
+    "Still ist auch etwas.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quiet is something too."
+          }
+        }
+      }
+    },
+    "Teil von Plus": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Part of Plus"
+          }
+        }
+      }
+    },
+    "Testphase · noch %lld Tage": {
+      "localizations": {
+        "de": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Testphase · noch 1 Tag"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Testphase · noch %lld Tage"
+                }
+              }
+            }
+          }
+        },
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Trial · 1 day left"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Trial · %lld days left"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Tippen für ein paar Worte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap for a few words"
+          }
+        }
+      }
+    },
+    "Tuck Plus läuft einen Monat oder ein Jahr, je nach gewählter Periode, und verlängert sich zum selben Preis, solange es nicht spätestens 24 Stunden vor dem Ende der laufenden Periode gekündigt wird. Die Abrechnung läuft über deine Apple-ID. Kündigen geht jederzeit über „Abo verwalten“; die Kündigung gilt zum Ende der laufenden Periode.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuck Plus runs for one month or one year, depending on the period you pick, and renews at the same price unless it is cancelled at least 24 hours before the end of the current period. Billing goes through your Apple ID. You can cancel at any time under “Manage subscription”; the cancellation takes effect at the end of the current period."
+          }
+        }
+      }
+    },
+    "Unterhaltung": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entertainment"
+          }
+        }
+      }
+    },
+    "Verstanden": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Understood"
+          }
+        }
+      }
+    },
+    "Vertrautes Bild.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A familiar sight."
+          }
+        }
+      }
+    },
+    "Vierteljahr": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quarter year"
+          }
+        }
+      }
+    },
+    "Vierzehn Tage lang hat Tuck alles, was Plus hat: Freischaltungen ohne Tageslimit und das Bettzeit-Fenster am Abend.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For fourteen days Tuck has everything Plus has: unlocks without a daily limit and the bedtime window in the evening."
+          }
+        }
+      }
+    },
+    "Wachstumsstufe (Vorschau)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Growth stage (preview)"
+          }
+        }
+      }
+    },
+    "Wann gehst du ins Bett?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When do you go to bed?"
+          }
+        }
+      }
+    },
+    "Wann weckt dich Tuck?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When does Tuck wake you?"
+          }
+        }
+      }
+    },
+    "Warm geworden": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warmed up"
+          }
+        }
+      }
+    },
+    "Warmsand": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warm Sand"
+          }
+        }
+      }
+    },
+    "Warmsand gehört jetzt auch dir.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warm Sand is yours too."
+          }
+        }
+      }
+    },
+    "Einen Moment, iOS ist noch dran.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One moment, iOS is still on it."
+          }
+        }
+      }
+    },
+    "Wartet auf Freigabe": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waiting for approval"
+          }
+        }
+      }
+    },
+    "Warum möchtest du entsperren?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Why do you want to unlock?"
+          }
+        }
+      }
+    },
+    "Wecker klingelt %@ um %@. %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Wecker klingelt %1$@ um %2$@. %3$@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The alarm rings %1$@ at %2$@. %3$@"
+          }
+        }
+      }
+    },
+    "Wecker stellen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set alarm"
+          }
+        }
+      }
+    },
+    "Wecker stoppen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop alarm"
+          }
+        }
+      }
+    },
+    "Wecker wird gestellt …": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Setting alarm …"
+          }
+        }
+      }
+    },
+    "Wecker zuletzt abgestellt: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alarm last dismissed: %@"
+          }
+        }
+      }
+    },
+    "Wecker, Morgenfenster und Sperre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alarm, morning window and block"
+          }
+        }
+      }
+    },
+    "Weckzeit": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wake time"
+          }
+        }
+      }
+    },
+    "Weiter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue"
+          }
+        }
+      }
+    },
+    "Weiter geht es, sobald der Wecker steht.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You can continue once the alarm is set."
+          }
+        }
+      }
+    },
+    "Welche Apps sollen warten?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Which apps should wait?"
+          }
+        }
+      }
+    },
+    "Wenn es doch mal nötig ist": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When you really need to get in"
+          }
+        }
+      }
+    },
+    "Wie immer, gut so.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "As always, good."
+          }
+        }
+      }
+    },
+    "Wir gähnen jetzt auch.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We yawn sometimes now."
+          }
+        }
+      }
+    },
+    "Wir haben das.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We have this."
+          }
+        }
+      }
+    },
+    "Wir kennen uns jetzt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We know each other now."
+          }
+        }
+      }
+    },
+    "Wir sitzen das aus.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We sit this out."
+          }
+        }
+      }
+    },
+    "Wir strecken uns jetzt manchmal.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We stretch sometimes now."
+          }
+        }
+      }
+    },
+    "%lld Stunden": {
+      "localizations": {
+        "de": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "1 Stunde"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Stunden"
+                }
+              }
+            }
+          }
+        },
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "1 hour"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld hours"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Sperrfenster insgesamt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Block windows in total"
+          }
+        }
+      }
+    },
+    "Was Tuck eingetragen hat": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What Tuck has set up"
+          }
+        }
+      }
+    },
+    "Nur ganz durchgelaufene Fenster.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only windows that ran all the way through."
+          }
+        }
+      }
+    },
+    "Noch nichts gewählt — ohne Auswahl wartet morgens keine App.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing selected yet — without a selection, no app waits in the morning."
+          }
+        }
+      }
+    },
+    "Ohne Auswahl weiter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue without a selection"
+          }
+        }
+      }
+    },
+    "Schritt %lld von %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step %1$lld of %2$lld"
+          }
+        }
+      }
+    },
+    "Vorschlag: %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suggestion: %@."
+          }
+        }
+      }
+    },
+    "Zurück": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back"
+          }
+        }
+      }
+    },
+    "Zählt WhatsApp dazu?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Does WhatsApp count?"
+          }
+        }
+      }
+    },
+    "Noch keine Antwort": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No answer yet"
+          }
+        }
+      }
+    },
+    "Zeigt die Optik einer Stufe an, ohne den gespeicherten Fortschritt zu ändern. „Echt“ zeigt wieder die Stufe der oben gezählten Morgen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shows the look of a stage without changing the stored progress. “Real” shows the stage of the mornings counted above again."
+          }
+        }
+      }
+    },
+    "Zu den Systemeinstellungen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open the Settings app"
+          }
+        }
+      }
+    },
+    "Zugriff anfragen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request access"
+          }
+        }
+      }
+    },
+    "Zugriff erlauben": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow access"
+          }
+        }
+      }
+    },
+    "Zugriff erteilt.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Access granted."
+          }
+        }
+      }
+    },
+    "bis %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "until %@"
+          }
+        }
+      }
+    },
+    "entspricht %@ pro Monat": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "that is %@ per month"
+          }
+        }
+      }
+    },
+    "erteilen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "granted"
+          }
+        }
+      }
+    },
+    "noch offen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "not chosen yet"
+          }
+        }
+      }
+    },
+    "noch keine": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "none yet"
+          }
+        }
+      }
+    },
+    "scharf stellen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "armed"
+          }
+        }
+      }
+    },
+    "stellen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "set"
+          }
+        }
+      }
+    },
+    "Ich lass es doch": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I'll leave it after all"
+          }
+        }
+      }
+    },
+    "Tuck kann seinen gemeinsamen Speicher gerade nicht öffnen. Solange das so ist, wird kein Sperrfenster eingetragen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuck cannot open its shared storage right now. Until it can, no block window is entered."
+          }
+        }
+      }
+    },
+    "Wecker ausschalten": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turn the alarm off"
+          }
+        }
+      }
+    },
+    "Wecker ausschalten?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turn the alarm off?"
+          }
+        }
+      }
+    },
+    "Abbrechen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "Der Wecker klingelt dann nicht mehr, und das Sperrfenster danach fällt mit weg.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The alarm stops ringing, and the block window after it goes with it."
+          }
+        }
+      }
+    },
+    "Technik": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Technical"
+          }
+        }
+      }
+    },
+    "Tuck finanziert sich über das Abo und nicht über Aufmerksamkeit. Keine Werbung, keine Empfehlungen, nichts, was länger dauert als nötig.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuck is funded by the subscription, not by attention. No ads, no recommendations, nothing that takes longer than it has to."
+          }
+        }
+      }
+    },
+    "Das Morgenfenster ist vorbei. Der Rest vom Tag läuft ohne mich.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The morning window is over. The rest of the day runs without me."
+          }
+        }
+      }
+    },
+    "Diagnose Abend": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Evening diagnostics"
+          }
+        }
+      }
+    },
+    "Diagnose Morgen": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morning diagnostics"
+          }
+        }
+      }
+    },
+    "Nur auf diesem Gerät. Für die Fehlersuche.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On this device only. For troubleshooting."
+          }
+        }
+      }
+    },
+    "Diagnose Morgen: %lld Fenster eingetragen, %lld Intervalle gestartet, %lld Shields geschrieben, %lld ohne Rückmeldung, %lld Tage übersprungen": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Diagnose Morgen: %1$lld Fenster eingetragen, %2$lld Intervalle gestartet, %3$lld Shields geschrieben, %4$lld ohne Rückmeldung, %5$lld Tage übersprungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morning diagnostics: %1$lld windows saved, %2$lld intervals started, %3$lld shields written, %4$lld without a callback, %5$lld days skipped"
+          }
+        }
+      }
+    },
+    "Diagnose Abend: %lld Fenster eingetragen, %lld Intervalle gestartet, %lld Shields geschrieben, %lld ohne Rückmeldung": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Diagnose Abend: %1$lld Fenster eingetragen, %2$lld Intervalle gestartet, %3$lld Shields geschrieben, %4$lld ohne Rückmeldung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Evening diagnostics: %1$lld windows saved, %2$lld intervals started, %3$lld shields written, %4$lld without a callback"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

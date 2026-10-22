@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "de",
+  "strings" : {
+    "NSAlarmKitUsageDescription" : {
+      "comment" : "Shown in the system alert that asks for alarm authorization.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuck stellt deinen Morgenwecker."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuck sets your morning alarm."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

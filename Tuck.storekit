@@ -1,0 +1,85 @@
+{
+  "identifier" : "3C0F9A21-6D48-4B7E-9F52-1A8E7C34D0B6",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "de_DE",
+    "_storefront" : "DEU"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "10000001",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Tuck Plus",
+          "locale" : "de_DE"
+        }
+      ],
+      "name" : "Tuck Plus",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "10000002",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Freischaltungen ohne Tageslimit und das Bettzeit-Fenster.",
+              "displayName" : "Plus (monatlich)",
+              "locale" : "de_DE"
+            }
+          ],
+          "productID" : "com.example.tuck.plus.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Plus (monatlich)",
+          "subscriptionGroupID" : "10000001",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "10000003",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Freischaltungen ohne Tageslimit und das Bettzeit-Fenster.",
+              "displayName" : "Plus (jährlich)",
+              "locale" : "de_DE"
+            }
+          ],
+          "productID" : "com.example.tuck.plus.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Plus (jährlich)",
+          "subscriptionGroupID" : "10000001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
